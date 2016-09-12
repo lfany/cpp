@@ -3,6 +3,9 @@ project(hello)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+set(MYFIRST_SOURCE_FILES myfirst.cpp)
+add_executable(myfirst ${MYFIRST_SOURCE_FILES})
+
 set(SOURCE_FILES choices.cpp)
 add_executable(hello ${SOURCE_FILES})
 
