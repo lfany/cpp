@@ -20,6 +20,11 @@ private:
     void set_tot();
 
 public:
+    // add two constructors
+    Stock();     // default constructor
+    Stock(const std::string & co, long n = 0, double pr = 0.0);
+    ~Stock();   // noisy destructor
+
     void acquire(const std::string &co, long n, double pr);
 
     void buy(long num, double price);
