@@ -14,3 +14,6 @@ add_executable(stock ${STOCK_SOURCE_FILES})
 
 set(STOCK2_SOURCE_FILES Stock.cpp Stock.h usestock2.cpp stock02.h stock02.h)
 add_executable(stock2 ${STOCK2_SOURCE_FILES})
+
+set(TIME_SOURCE_FILES mytime/Time.cpp mytime/Time.h mytime/mytime.cpp)
+add_executable(mytime ${TIME_SOURCE_FILES})
