@@ -32,5 +32,9 @@ int main(){
     total.Show();
     cout << endl;
 
+    cout << "coding + fixing time = ";
+    (coding + fixing).Show();
+    cout << endl;
+
     return 0;
 }
