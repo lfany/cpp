@@ -36,5 +36,13 @@ int main(){
     (coding + fixing).Show();
     cout << endl;
 
+    cout << "coding - fixing time = ";
+    (coding.operator-(fixing)).Show();
+    cout << endl;
+
+    cout << "coding * fixing time = ";
+    (coding.operator*(2)).Show();
+    cout << endl;
+
     return 0;
 }
