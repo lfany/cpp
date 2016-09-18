@@ -17,3 +17,6 @@ add_executable(stock2 ${STOCK2_SOURCE_FILES})
 
 set(TIME_SOURCE_FILES mytime/Time.cpp mytime/Time.h mytime/mytime.cpp)
 add_executable(mytime ${TIME_SOURCE_FILES})
+
+set(TIME3_SOURCE_FILES mytime3/Time.cpp mytime3/Time.h mytime3/mytime3.cpp)
+add_executable(mytime3 ${TIME3_SOURCE_FILES})
