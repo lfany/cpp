@@ -23,3 +23,6 @@ add_executable(mytime3 ${TIME3_SOURCE_FILES})
 
 set(VECTOR_SOURCE_FILES vector/Vector.cpp vector/Vector.h vector/randwalk.cpp)
 add_executable(vector ${VECTOR_SOURCE_FILES})
+
+set(STRINGBAD_SOURCE_FILES strings/stringbad.cpp strings/stringbad.h strings/cegnews.cpp)
+add_executable(stringbad ${STRINGBAD_SOURCE_FILES})
