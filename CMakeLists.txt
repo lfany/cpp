@@ -20,3 +20,6 @@ add_executable(mytime ${TIME_SOURCE_FILES})
 
 set(TIME3_SOURCE_FILES mytime3/Time.cpp mytime3/Time.h mytime3/mytime3.cpp)
 add_executable(mytime3 ${TIME3_SOURCE_FILES})
+
+set(VECTOR_SOURCE_FILES vector/Vector.cpp vector/Vector.h vector/randwalk.cpp)
+add_executable(vector ${VECTOR_SOURCE_FILES})
