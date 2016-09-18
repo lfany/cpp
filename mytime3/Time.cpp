@@ -47,9 +47,17 @@ Time3 Time3::operator-(const Time3 &t) const {
     return diff;
 }
 
+//Time3 Time3::operator+(const Time3 &t1, const Time3 &t2) {
+//    Time3 sum;
+//    sum.minutes = t1.minutes + t2.minutes;
+//    sum.hours = t1.hours + t2.hours + sum.minutes / 60;
+//    sum.minutes = sum.minutes % 60;
+//    return sum;
+//}
+
 Time3 Time3::operator*(double n) const {
     Time3 result;
-    long totalminutes = hours * n * 60 + minutes * n;
+    long totalminutes = (long) (hours * n * 60 + minutes * n);
     result.hours = totalminutes / 60;
     result.minutes = totalminutes % 60;
     return result;

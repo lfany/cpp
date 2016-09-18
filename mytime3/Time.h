@@ -20,6 +20,11 @@ public:
     Time3 operator-(const Time3 & t) const;
     Time3 operator*(double n) const;
 
+
+//    同 Time3 operator+(const Time3 & t) const; 防止二义性
+//    friend Time3 operator+(const Time3 & t1, const Time3 & t2){
+//        return t2+t1;
+//    }
 //     使用友元函数来重载操作符
     friend Time3 operator*(double m, const Time3 &t){
         return t*m; //inline definition

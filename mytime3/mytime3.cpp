@@ -20,5 +20,6 @@ int main(){
     cout << "Aida * 1.17: " << temp << endl;
     cout << "10.0 * Tosca: " << 10.0 * tosca << endl;
 
+    cout << "++++++: " << (aida + tosca) <<endl;
     return 0;
 }
